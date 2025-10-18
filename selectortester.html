@@ -1,32 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Gateway Router</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-    }
-    label {
-      display: block;
-      margin-top: 15px;
-    }
-    select, input[type="text"], button {
-      width: 300px;
-      padding: 8px;
-      margin-top: 5px;
-    }
-    #result {
-      margin-top: 20px;
-      font-weight: bold;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Sloth's Toolbox</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <nav>
+        <a href="/">Home</a>
+        <a href="/selectortester">SelectorTester</a>
+        <a href="/casconfigurer">CASConfigurer</a>
+    </nav>
 </head>
 <body>
 
@@ -67,8 +50,8 @@
       VI: '001',
       MC: '002',
       AX: '003',
-      PPL: '004',
-      KLI: '005'
+      PPL: '999',
+      KLI: '998'
     };
 
     document.getElementById('gatewayForm').addEventListener('submit', function(e) {
